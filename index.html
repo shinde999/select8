@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>chocolate</title>
+</head>
+
+<body>
+    <nav id="nav">
+        
+        <div class="navbar-container">
+            <div class="logo">chocolates</div>
+            <ul class="nav-links">
+                <li class="nav-link"><a href="#">Home</a></li>
+                <li class="nav-link"><a href="#">Products</a></li>
+                <li class="nav-link"><a href="#">About Us</a></li>
+                <li class="nav-link"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+  <div class="slider">
+        <!-- ... (Your slider content) -->
+        
+    </div>
+
+    <!-- Custom Chocolate Bundle Section -->
+    <div class="custom-chocolate">
+        <h2 class="custom-chocolate-title">Create Your Chocolate Bundle (max 8):</h2>
+        <ul id="custom-chocolate-list">
+            <!-- Chocolate options will be dynamically added here -->
+            <li data-id="1" class="chocolate-item">
+                <img src="image1.webp" alt="Chocolate 1">
+                <div class="chocolate-info">
+                    <h3>KITKAT</h3>
+                    <p>Price: $2.00</p>
+                    <button class="add-to-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+            </li>
+            <li data-id="2" class="chocolate-item">
+                <img src="DARK.webp" alt="Chocolate 2">
+                <div class="chocolate-info">
+                    <h3>DARK CHOCOLATE</h3>
+                    <p>Price: $2.50</p>
+                    <button class="add-to-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+            </li>
+            <li data-id="2" class="chocolate-item">
+                <img src="Chocolate-branco-2.webp.png" alt="Chocolate 2">
+                <div class="chocolate-info">
+                    <h3>WHITE CHOCOLATE</h3>
+                    <p>Price: $2.50</p>
+                    <button class="add-to-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+            </li>
+            <!-- Add more chocolate options here -->
+        </ul>
+    </div>
+
+    <!-- Cart Summary -->
+    <div class="cart-summary">
+        <h2>Your Chocolate Bundle:</h2>
+        <ul id="cart-list">
+            <!-- Selected chocolates will be shown here -->
+        </ul>
+        <p>Total Price: $<span id="total-price">0.00</span></p>
+    </div>
+
+    <!-- ... (Rest of your content) -->
+
+    <script src="script.js"></script>
+</div>
+</body>
+
+</html>
